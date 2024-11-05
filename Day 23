@@ -1,0 +1,15 @@
+print("Login System")
+print()
+def login():
+  while True:
+    username = input("What is your username?: ")
+    password = input("What is your password?: ")
+
+    if username == "matt" or "Matt" and password == "Thecoolest12":
+      print("Welcome!")
+      break
+    else:
+      print("Username and password are not recognised. Try again")
+      continue
+
+login()
